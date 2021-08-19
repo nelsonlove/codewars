@@ -58,17 +58,17 @@ def nine(func=None):
     return 9 if not func else func(9)
 
 
-def plus(n):  # your code here
+def plus(n):
     return lambda x: x + n
 
 
-def minus(n):  # your code here
+def minus(n):
     return lambda x: x - n
 
 
-def times(n):  # your code here
+def times(n):
     return lambda x: x * n
 
 
-def divided_by(n):  # your code here
+def divided_by(n):
     return lambda x: x // n
