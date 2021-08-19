@@ -414,29 +414,3 @@ def unique_in_order(iterable):
     return uniques
 2 months agoRefactor
 7 kyu
-List Filtering
-Python:
-
-def filter_list(l):
-  return [i for i in l if type(i) is not str]
-2 months agoRefactorDiscuss
-6 kyu
-Array.diff
-Python:
-
-def array_diff(a, b):
-    return [i for i in a if i not in b]
-2 months agoRefactor
-8 kyu
-Multiply
-Python:
-
-def multiply(a, b):
-    return a * b
-2 months agoRefactor
-def multiply(a, b):
-  return a * b
-2 months agoRefactor
-© 2021 CodewarsAboutAPIBlogPrivacyTermsContact
-powered by
-
