@@ -24,7 +24,7 @@ Have fun!
 """
 
 
-def pick_peaks(arr):
+def find_local_peaks(arr):
     pos = []
     peaks = []
 

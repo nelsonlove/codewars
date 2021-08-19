@@ -30,7 +30,7 @@ from max_sequence import max_sequence
 from multiply import multiply
 from no_space import no_space
 from PaginationHelper import PaginationHelper
-from pick_peaks import pick_peaks
+from find_local_peaks import find_local_peaks
 from rot13_cipher_encode import rot13_cipher_encode
 from strip_comments import strip_comments
 from unique_in_order import unique_in_order
