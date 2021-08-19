@@ -380,26 +380,5 @@ def duplicate_encode(word):
 Human Readable Time
 Python:
 
-def make_readable(seconds):
-    ss = seconds % 60
-    mm = (seconds - ss) // 60
-    hh = mm // 60
-    mm = mm - hh * 60
-    return "{:02d}:{:02d}:{:02d}".format(hh, mm, ss)
+
 2 months agoRefactor
-6 kyu
-Find The Parity Outlier
-Python:
-
-def find_outlier(integers):
-    def is_even(*ints):
-        return all(i % 2 == 0 for i in ints)
-
-    no_leading_outlier = is_even(sum(integers[:2], sum(integers[1:3])))
-    evens_only = is_even(integers[0]) if no_leading_outlier else is_even(integers[-1])
-
-    for i in integers:
-        if is_even(i) != evens_only:
-            return i
-2 months agoRefactor
-6 kyu
