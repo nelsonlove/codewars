@@ -1,15 +1,15 @@
+import random
 from unittest import TestCase
 
 from kata import find_outlier
 
 
 class Test(TestCase):
-    def test_find_outlier(self):
-        # Simple tests
+    def test_find_outlier_simple(self):
         self.assertEqual(find_outlier([0, 1, 2]), 1)
         self.assertEqual(find_outlier([1, 2, 3]), 2)
 
-        # More complex tests
+    def test_find_outlier_random(self):
         ints1 = [2, 6, 8, 10, 3]  # odd at the back
         ints2 = [2, 6, 8, 200, 700, 1, 84, 10, 4]  # odd in the middle
         ints3 = [17, 6, 8, 10, 6, 12, 24, 36]  # odd in the front
@@ -28,11 +28,9 @@ class Test(TestCase):
         inputs = [ints1, ints2, ints3, ints4, ints5, ints6, ints7, ints8, ints9, ints10, ints11, ints12, ints13]
         expected = [3, 1, 17, 2, 44, 1000, -3, -35, -123456789, -20, -44, 1, 0]
 
-        # Random tests
         for i, (ins, e) in enumerate(zip(inputs, expected)):
             self.assertEqual(find_outlier(ins), e)
 
-            import random
             for _ in range(20):
                 test_integers = []
                 odds = []

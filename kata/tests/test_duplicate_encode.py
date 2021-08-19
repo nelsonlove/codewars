@@ -5,7 +5,7 @@ from kata import duplicate_encode
 
 
 class Test(TestCase):
-    def test_duplicate_encode(self):
+    def test_duplicate_encode_basic(self):
         self.assertEqual(duplicate_encode("din"), "(((")
         self.assertEqual(duplicate_encode("recede"), "()()()")
         self.assertEqual(duplicate_encode("Success"), ")())())", "should ignore case")
@@ -17,8 +17,7 @@ class Test(TestCase):
         self.assertEqual(duplicate_encode("(( @"), "))((")
         self.assertEqual(duplicate_encode(" ( ( )"), ")))))(")
 
-        # And now... some random tests !
-
+    def test_duplicate_encode_random(self):
         def duplicate_sol(word):
             return "".join(["(" if word.lower().count(x.lower()) == 1 else ")" for x in word])
 
