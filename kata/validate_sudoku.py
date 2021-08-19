@@ -68,7 +68,7 @@ Sudoku: http://en.wikipedia.org/wiki/Sudoku and http://www.sudokuessentials.com/
 """
 
 
-def done_or_not(board):
+def validate_sudoku(board):
     rows = []
     cols = []
     squares = []

@@ -17,7 +17,7 @@ from calculating_with_functions import (
     times,
     divided_by
 )
-from done_or_not import done_or_not
+from validate_sudoku import validate_sudoku
 from duplicate_count import duplicate_count
 from duplicate_encode import duplicate_encode
 from filter_list import filter_list
