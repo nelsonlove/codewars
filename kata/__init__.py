@@ -31,6 +31,6 @@ from multiply import multiply
 from no_space import no_space
 from PaginationHelper import PaginationHelper
 from pick_peaks import pick_peaks
-from rot13 import rot13
+from rot13_cipher_encode import rot13_cipher_encode
 from strip_comments import strip_comments
 from unique_in_order import unique_in_order

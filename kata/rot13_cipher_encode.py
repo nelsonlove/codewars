@@ -11,7 +11,7 @@ Please note that using encode is considered cheating.
 import string
 
 
-def rot13(message):
+def rot13_cipher_encode(message):
     char_lists = [string.ascii_lowercase, string.ascii_uppercase]
     result = []
     for char in message:
