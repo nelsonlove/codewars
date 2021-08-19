@@ -1,10 +1,10 @@
 from unittest import TestCase
 
-from kata import get_pins
+from kata import get_PIN_variations
 
 
 class Test(TestCase):
-    def test_get_pins(self):
+    def test_get_PIN_variations(self):
         expectations = [('2', ['1', '2', '3', '5']),
                         ('8', ['5', '7', '8', '9', '0']),
                         ('0', ['0', '8']),
@@ -130,6 +130,6 @@ class Test(TestCase):
                         ]
 
         for tup in expectations:
-            self.assertEqual(sorted(get_pins(tup[0])), sorted(tup[1]),
+            self.assertEqual(sorted(get_PIN_variations(tup[0])), sorted(tup[1]),
                              'Come on, detective! You can do it better! These are not the PIN variations for "' + tup[
                                  0] + '"')

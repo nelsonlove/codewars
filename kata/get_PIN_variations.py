@@ -33,7 +33,7 @@ Detective, we are counting on you!
 """
 
 
-def get_pins(observed):
+def get_PIN_variations(observed):
     adjacents = {
         '0': ['8'],
         '1': ['2', '4'],

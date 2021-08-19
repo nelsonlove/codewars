@@ -22,7 +22,7 @@ from duplicate_count import duplicate_count
 from duplicate_encode import duplicate_encode
 from filter_list import filter_list
 from find_outlier import find_outlier
-from get_pins import get_pins
+from get_PIN_variations import get_PIN_variations
 from is_pangram import is_pangram
 from is_valid_walk import is_valid_walk
 from make_readable import make_readable
