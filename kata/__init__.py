@@ -2,7 +2,20 @@ from alphabet_position import alphabet_position
 from anagrams import anagrams
 from array_diff import array_diff
 from calculating_with_functions import (
-    one, two, three, four, five, six, seven, eight, nine, zero, plus, minus, times, divided_by
+    one,
+    two,
+    three,
+    four,
+    five,
+    six,
+    seven,
+    eight,
+    nine,
+    zero,
+    plus,
+    minus,
+    times,
+    divided_by
 )
 from done_or_not import done_or_not
 from duplicate_count import duplicate_count
