@@ -365,20 +365,5 @@ def duplicate_count(text):
 Duplicate Encoder
 Python:
 
-def duplicate_encode(word):
-    word = word.lower()
-    chars = {}
-    for letter in word:
-        if letter not in chars:
-            chars[letter] = '('
-        else:
-            chars[letter] = ')'
-
-    return ''.join(chars[l] for l in word)
-2 months agoRefactor
-5 kyu
-Human Readable Time
-Python:
-
 
 2 months agoRefactor
