@@ -9,5 +9,7 @@ class Test(TestCase):
         self.assertEqual(anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']), ['carer', 'racer'])
         self.assertEqual(anagrams('a', ['a', 'b', 'c', 'd']), ['a'])
         self.assertEqual(anagrams('ab', ['cc', 'ac', 'bc', 'cd', 'ab', 'ba', 'racar', 'caers', 'racer']), ['ab', 'ba'])
-        self.assertEqual(anagrams('abba', ['a', 'b', 'c', 'd', 'aabb', 'bbaa', 'abab', 'baba', 'baab', 'abcd', 'abbba', 'baaab', 'abbab', 'abbaa', 'babaa']), ['aabb', 'bbaa', 'abab', 'baba', 'baab'])
+        self.assertEqual(anagrams('abba',
+                                  ['a', 'b', 'c', 'd', 'aabb', 'bbaa', 'abab', 'baba', 'baab', 'abcd', 'abbba', 'baaab',
+                                   'abbab', 'abbaa', 'babaa']), ['aabb', 'bbaa', 'abab', 'baba', 'baab'])
         self.assertEqual(anagrams('big', ['gig', 'dib', 'bid', 'biig']), [])

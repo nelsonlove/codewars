@@ -1,6 +1,6 @@
-from unittest import TestCase
-import string
 import random
+import string
+from unittest import TestCase
 
 from kata import alphabet_position
 
