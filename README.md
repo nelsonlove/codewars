@@ -1,2 +1,3 @@
 # codewars
- My solutions to various Codewars exercises
+
+My solutions to various Codewars exercises

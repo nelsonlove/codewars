@@ -1,5 +1,5 @@
-from unittest import TestCase
 from random import randint
+from unittest import TestCase
 
 from kata import array_diff
 

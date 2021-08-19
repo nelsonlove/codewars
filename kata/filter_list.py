@@ -10,4 +10,4 @@ filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 
 
 def filter_list(l):
-  return [i for i in l if type(i) is not str]
+    return [i for i in l if type(i) is not str]

@@ -403,14 +403,3 @@ def find_outlier(integers):
             return i
 2 months agoRefactor
 6 kyu
-Unique In Order
-Python:
-
-def unique_in_order(iterable):
-    uniques = [iterable[0]] if iterable else []
-    for i in iterable:
-        if uniques and i != uniques[-1]:
-            uniques.append(i)
-    return uniques
-2 months agoRefactor
-7 kyu
